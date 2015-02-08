@@ -1,0 +1,29 @@
+{
+  "name": "ngPageHeadMeta",
+  "version": "1.0.0",
+  "description": "Angular Directive which puts the transcluded <meta> and <title> tags to document head.",
+  "main": "ng-page-head-meta.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular",
+    "directive",
+    "seo",
+    "head",
+    "meta",
+    "title"
+  ],
+  "authors": [
+    "Mohammed Hammoud"
+  ],
+  "license": "MIT",
+  "homepage": "www.iktw.se",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
