@@ -3,6 +3,12 @@ Angular Directive which puts the transcluded ```<meta>``` and ```<title>``` tags
 
 Attributes
 
+Install:
+-
+* bower install ng-page-head-meta
+* add 'ngPageHeadMeta' to your angular module, e.g. ```angular.module('myApp', ['ngPageHeadMeta']);```
+
+
 Usage example:
 -
 ```
