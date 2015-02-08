@@ -1,5 +1,5 @@
 # ngPageHeadMeta
-Angular Directive which puts the transcluded ```<meta>``` and ``<title>``` tags to document head.
+Angular Directive which puts the transcluded ```<meta>``` and ```<title>``` tags to document head.
 
 Attributes
 
@@ -14,4 +14,4 @@ Usage example:
 ```
 **status-code="200"** will add ```<meta name="prerender-status-code" content="200">``` which means that you must use prerender if you want that to actually do something for you. As a default statusCode is set to 200.
 
-```<page-meta-data```> takes all kinds of ```<meta>``` tags it does not have to be description or keywords but keep in mind that all the transcluded data inside of the directive get removed from ```<head>``` if the next page has implemeted the directive. 
+```<page-meta-data>``` takes all kinds of ```<meta>``` elements, it does not only have to be description or keywords. But keep in mind that all the transcluded data inside of the directive get removed from ```<head>``` if the next page has implemeted the directive. 
